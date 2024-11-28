@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="minhacss.css" />
+    <style>
+        body {
+            background-color: #1E7023;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .topo-container {
+            display: flex; /* Alinha os itens em linha */
+            align-items: center; /* Centraliza verticalmente os itens */
+            justify-content: space-between; /* Adiciona espaço entre o menu e a logo */
+            padding: 10px 20px;
+        }
+
+        .topo-container a {
+            text-decoration: none;
+        }
+
+        .menu {
+            flex: 0 0 auto; /* Menu no canto esquerdo */
+        }
+
+        .topo-center {
+            flex: 1; /* Faz a logo ocupar o centro */
+            text-align: center;
+        }
+
+        img {
+            max-height: 100px; /* Ajusta a altura máxima das imagens */
+        }
+    </style>
+</head>
+<body>
+    <div class="topo-container">
+        <!-- Menu no canto esquerdo -->
+        <div class="menu">
+            <a href="menu.html">
+                <img src="lefttop.png" alt="Left Image" />
+            </a>
+        </div>
+        
+        <!-- Logo centralizada -->
+        <div class="topo-center">
+            <img src="centertop.png" alt="Center Image" />
+        </div>
+    </div>
+</body>
+</html>

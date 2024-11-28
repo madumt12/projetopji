@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogue o Jogo do Scratch</title>
+    <style>
+        /* Corpo da página */
+        body {
+            background-color: #1E7023; /* Cor verde vibrante */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 40px 20px; /* Espaçamento interno */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Para centralizar o título e o conteúdo */
+        }
+
+        /* Título */
+        h1 {
+            color: #ffffff;
+            font-size: 40px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Parágrafo geral */
+        p {
+            color: #ffffff;
+            font-size: 18px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* Conteúdo principal */
+        .main-content {
+            display: flex; /* Layout lado a lado */
+            flex-wrap: wrap; /* Ajusta em telas menores */
+            justify-content: center; /* Centraliza horizontalmente */
+            gap: 20px; /* Espaçamento entre elementos */
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Área do texto explicativo */
+        .text-section {
+            flex: 1; /* Ajusta largura dinamicamente */
+            max-width: 400px;
+            color: #ffffff;
+            text-align: justify;
+        }
+
+        /* Estilo do iframe (para o jogo) */
+        iframe {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave ao redor do iframe */
+            width: 600px; /* Reduzido para caber ao lado do texto */
+            height: 500px; /* Proporcional ao tamanho reduzido */
+            transition: transform 0.3s ease;
+        }
+
+        /* Efeito de hover no iframe (aumenta ao passar o mouse) */
+        iframe:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Jogue o Jogo da Amazônia</h1>
+    <p>Divirta-se enquanto aprende sobre os animais da floresta amazônica!</p>
+
+    <!-- Conteúdo principal -->
+    <div class="main-content">
+        <!-- Jogo -->
+        <iframe src="https://scratch.mit.edu/projects/1049576900/embed" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        
+        <!-- Texto explicativo -->
+        <div class="text-section">
+           
+            <p>
+                Este é um jogo da memória que utiliza imagens de animais incríveis encontrados na floresta amazônica. 
+                O objetivo é encontrar os pares de imagens iguais enquanto você descobre mais sobre a fauna dessa importante região.
+            </p>
+            <p>
+                Além de divertido, este jogo incentiva o aprendizado sobre os diferentes animais que habitam a Amazônia, 
+                promovendo conscientização ambiental e respeito pela biodiversidade. Boa sorte!
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

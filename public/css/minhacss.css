@@ -1,0 +1,26 @@
+.topo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E7023;
+    padding: 10px;
+}
+
+.topo-container img {
+    max-height: 100px;
+}
+
+.topo-center {
+    flex-grow: 1;
+    text-align: center;
+}
+.container1 .card1{
+    background-color:#409c54;
+    opacity:10;
+    padding:20px}
+    /* Efeito ao passar o mouse sobre links */
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}

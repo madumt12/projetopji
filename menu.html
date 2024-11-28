@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Navegação</title>
+    <link rel="stylesheet" type="text/css" href="minhacss.css" />
+    <style>
+        /* Resetando margens e padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Corpo da página */
+        body {
+            background-color: #1E7023; /* Cor verde vibrante */
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            flex-direction: column; /* Exibição na coluna */
+        }
+
+        /* Estilo do contêiner de navegação */
+        .nav-container {
+            display: flex;
+            justify-content: center; /* Centraliza os itens na linha */
+            gap: 170px; /* Aumenta o espaçamento entre os botões */
+        }
+
+        /* Estilo de cada item de navegação */
+        .nav-container a {
+            display: inline-block;
+            padding: 20px 40px;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            background-color: #ffe714;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        /* Efeito de hover nos links */
+        .nav-container a:hover {
+            background-color: #ffb514;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-container">
+        <a href="topo.html" target="topo">VOLTAR</a>
+        <a href="principal.html" target="principal">INÍCIO</a>
+        <a href="jogos.html" target="principal">JOGOS</a>
+        <a href="conteudos.html" target="principal">CONTEÚDOS</a>
+    </div>
+
+</body>
+</html>

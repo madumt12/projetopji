@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogue o Jogo do Pantanal</title>
+    <style>
+        /* Corpo da página */
+        body {
+            background-color: #1E7023; /* Cor verde vibrante */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 40px 20px; /* Adicionando padding para espaçar o conteúdo das bordas */
+        }
+
+        /* Título */
+        h1 {
+            color: #ffffff;
+            font-size: 40px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        /* Parágrafo */
+        p {
+            color: #ffffff;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        /* Container principal */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        /* Estilo do iframe (para o jogo) */
+        iframe {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave ao redor do iframe */
+            width: 600px; /* Diminuindo largura */
+            height: 500px; /* Diminuindo altura */
+            transition: transform 0.3s ease;
+        }
+
+        /* Efeito de hover no iframe (aumenta ao passar o mouse) */
+        iframe:hover {
+            transform: scale(1.05);
+        }
+        .text-section {
+            flex: 1; /* Ajusta largura dinamicamente */
+            max-width: 400px;
+            color: #ffffff;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Jogue o Jogo do Pantanal</h1>
+    <div class="container">
+        <iframe src="https://scratch.mit.edu/projects/1101178349/embed" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <div class="text-section">
+        <h2>Sobre o jogo</h2>
+            <p>Este é um jogo em formato de labirinto inspirado no Pantanal. O objetivo é pegar as bolinhas coloridas e responder às perguntas corretamente para avançar no jogo. 💡</p>
+            <p>Seu objetivo final é alcançar o ponto vermelho. Se conseguir, você será o vencedor! 🏆</p>
+            <p>Divirta-se e aprenda mais sobre o incrível bioma do Pantanal enquanto joga! 🌱🐾</p>
+    </div>
+</div>
+</body>
+</html>

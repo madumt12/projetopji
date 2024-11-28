@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploração dos Biomas</title>
+    <style>
+        body {
+            background-color: rgb(47, 255, 82); /* Fundo vibrante */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            justify-content: center; /* Centraliza o conteúdo horizontalmente */
+            align-items: center; /* Centraliza o conteúdo verticalmente */
+            height: 100vh; /* Faz a altura da tela ocupar 100% */
+        }
+
+        table {
+            border-collapse: collapse; /* Remove o espaçamento entre as células */
+            text-align: center;
+            width: 80%; /* Define uma largura para a tabela */
+        }
+
+        td {
+            padding: 20px; /* Espaçamento entre as células */
+        }
+
+        /* Estilo dos cards */
+        .card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Estilo da imagem dentro do card */
+        .card img {
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        /* Estilo do título dentro do card */
+        .card h3 {
+            font-size: 22px;
+            color: #333;
+            margin: 20px 0 10px 0;
+        }
+
+        /* Estilo do botão dentro do card */
+        .card button {
+            padding: 12px 24px;
+            font-size: 16px;
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .card button:hover {
+            background-color: #f50057; /* Cor mais escura ao passar o mouse */
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <a href="pampas.html">
+                        <div class="card">
+                            <img src="pampas.png" alt="Pampas">
+                            <h3>Pampas</h3>
+                            <button>Abrir Bioma</button>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <a href="amazonas.html">
+                        <div class="card">
+                            <img src="amazonas.png" alt="Amazônia">
+                            <h3>Amazônia</h3>
+                            <button>Abrir Bioma</button>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <a href="mtatlantica.html">
+                        <div class="card">
+                            <img src="mataatlantica.png" alt="Mata Atlântica">
+                            <h3>Mata Atlântica</h3>
+                            <button>Abrir Bioma</button>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="cerrado.html">
+                        <div class="card">
+                            <img src="cerrado.png" alt="Cerrado">
+                            <h3>Cerrado</h3>
+                            <button>Abrir Bioma</button>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <a href="pantanal.html">
+                        <div class="card">
+                            <img src="pantanal.png" alt="Pantanal">
+                            <h3>Pantanal</h3>
+                            <button>Abrir Bioma</button>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <a href="caatinga.html">
+                        <div class="card">
+                            <img src="caatinga.png" alt="Caatinga">
+                            <h3>Caatinga</h3>
+                            <button>Abrir Bioma</button>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
